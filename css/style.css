@@ -1,0 +1,94 @@
+body {
+   background-color: #EFF0F3!important;
+}
+
+.body-conteiner {
+   width: 920px;
+   /* display: flex;
+   flex-direction: column;
+   flex-wrap: wrap; */
+   display: block;
+   margin-left: auto;
+   margin-right: auto
+}
+
+.body__title {
+   margin: 15px 0;
+}
+
+.title{
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.body__share{
+   align-items: center;
+}
+
+#btn-task{
+   float: right;
+}
+
+.form {
+   background: #2FCC9A;
+   border: 2px solid #228e6c;
+   border-radius: 10px;
+   padding: 20px 10px;
+}
+
+.form__task {
+   display: flex;
+   justify-content: space-between;
+}
+
+#task {
+   width: 60%;
+   float: left;
+   margin-right: 5%;
+}
+
+.task__conteiner{
+   margin-top: 15px;
+}
+.ul-task{
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+
+ul li {
+   list-style: none;
+   padding: 15px;
+   margin-bottom: 10px;
+   background: #fcfcfc;
+   border: 1px solid silver;
+   border-radius: 5px;
+}
+
+ul li:hover {
+   background: #e5e5e5;
+}
+
+ul li button {
+   margin-left: auto;
+   margin-right: auto;
+   border: 0;
+   padding: 5px 15px;
+   color: white;
+   font-size: 13px;
+   background: #db5757;
+   position: relative;
+   float: right;
+   border-radius: 5px;
+}
+
+ul li button:hover {
+   background: #a04141;
+}
+
+@media screen and (max-width: 770px) {
+   .body-conteiner {
+      width: 540px;
+   }
+}
